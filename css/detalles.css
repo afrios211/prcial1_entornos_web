@@ -1,0 +1,42 @@
+main{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    background-color: #abc0c5 ;
+    box-shadow: -10px 5px 10px rgb(0,0, 0,2);
+    border-radius: 0.5cm;
+}
+
+
+table {
+    border-color: black;
+    margin-right: 0.5cm; ;
+    margin-left: 0.5cm;
+    text-align: center;
+    
+}
+.p::before{
+    content: "**";
+    margin-right: 2px;
+}
+
+.p::after{
+    content: "**";
+    margin-left: 2px;
+}
+
+.p2::first-letter{
+    text-decoration: double;
+}
+.p2::first-line{
+    text-shadow: 0.7cm;
+}
+
+
+.mydiv {
+    background-color: rgb(167, 172, 245);
+}
+.mouseover {
+    background-color: rgb(15, 216, 216);
+}
